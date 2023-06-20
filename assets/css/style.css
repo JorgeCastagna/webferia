@@ -2,7 +2,7 @@
    
    box-sizing: border-box;
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   color: rgb(78, 35, 35);
+   /*color: rgb(78, 35, 35);*/
    
 }
 
@@ -16,7 +16,7 @@
   text-align: center;
 }
 
-head, footer{
+footer{
    background-color: lightblue;
    color: rgb(78, 35, 35);
    text-align: center;
@@ -51,6 +51,7 @@ h1{
    color:beige;
    
 }
+
 h2{
    color: rgb(78, 35, 35);
    text-align: center;
@@ -63,7 +64,7 @@ a{
    color: rgb(78, 35, 35);
 }
 a:hover{
-   color:rgb(78, 35, 35);
+   color:rgb(187, 139, 139);
 }
 main{ 
    background-image: url(#./../../assets/imagenes/feriantes.jpg); 
@@ -93,8 +94,8 @@ main{
    justify-content: space-around;
    border-radius: 20px;
    margin:5px ;
-    padding: 10px;
-    color:rgb(78, 35, 35);
+   padding: 10px;
+   color:rgb(78, 35, 35);
  }
  
  iframe{

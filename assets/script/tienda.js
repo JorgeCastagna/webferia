@@ -31,7 +31,7 @@ class Product {
       <center>
         <h4>${this.articulo}</h4>
         <div>
-          <img src="${this.img}" alt="${this.name}" >
+        <img src="/prgfullpython/${this.img}" alt="${this.name}" /> 
           <h5>${this.precio}</h5>
         </div>
       </center>`;
