@@ -2,7 +2,7 @@
 fetch('https://sheetdb.io/api/v1/v8sid17znpqza')
   .then(response => response.json()) // Parsear la respuesta como JSON
   .then(data => {
-    // Aquí puedes trabajar con los datos obtenidos de la API
+    // Aca se puede trabajar con los datos obtenidos de la API
     console.log(data); // Verifica que los datos se estén obteniendo correctamente
 
     // Crear instancias de la clase Product y mostrar los datos en el HTML
@@ -19,19 +19,19 @@ fetch('https://sheetdb.io/api/v1/v8sid17znpqza')
 
 class Product {
   constructor(articulo, precio, img) {
-    this.articulo = articulo;
+    this.articulo = articulo;               
     this.precio = precio;
     this.img = img;
   }
 
-  getDivCardProduct(idToInsert) {
-    let parent = document.getElementById(idToInsert);
-    let div = document.createElement("div");
+  getDivCardProduct(idToInsert) {       //Estructuras de las tarjetas para la Tienda
+    let parent = document.getElementById(idToInsert);   
+    let div = document.createElement("div");            
     div.innerHTML = `
-      <center>
+      <center>                                
         <h4>${this.articulo}</h4>
         <div>
-        <img src="/prgfullpython/${this.img}" alt="${this.name}" /> 
+        <img src="${this.img}" alt="${this.name}" /> 
           <h5>${this.precio}</h5>
         </div>
       </center>`;
@@ -40,5 +40,5 @@ class Product {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-  // El código dentro de esta función se ejecutará cuando se cargue el DOM
+  // El código dentro de esta función se ejecutará cuando se cargue el DOM(Document Object Model)
 });

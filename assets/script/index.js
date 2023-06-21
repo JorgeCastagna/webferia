@@ -1,3 +1,5 @@
+//Se almacena una cadena de caracteres en una variable que luego sera pasada 
+// al archivo HTML
 var barra = `
 <div>
     <input type="checkbox">
@@ -16,4 +18,4 @@ var barra = `
         </nav>
 </div>`
 
-document.getElementById("navBarId").innerHTML = barra;
+document.getElementById("navBarId").innerHTML = barra; //Pasamos la cedena 'barra' al HTML con el metodo '.innerHTML'
