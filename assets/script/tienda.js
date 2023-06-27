@@ -22,7 +22,7 @@ class Product {
 
 document.addEventListener("DOMContentLoaded", function() {
   // El código dentro de esta función se ejecutará cuando se cargue el DOM(Document Object Model)
-  fetch('https://sheetdb.io/api/v1/v8sid17znpqza')
+  fetch('https://sheetdb.io/api/v1/5disyl1ct5i2i')
   .then(response => response.json()) // Parsear la respuesta como JSON
   .then(data => {
     // Aca se puede trabajar con los datos obtenidos de la API
